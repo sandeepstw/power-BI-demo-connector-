@@ -19,7 +19,7 @@ Data Connectors are created using the M language. This is the same language used
 ## Sample of PowerBI connetor using public API:
 This PowerBI connector is used to load data from public API as data source. Also it is possible to edit the data using Query editor. After the data is ready in required format Reports are created using this data. 
 
-The function that is used to load data is:
+The function used to load data is:
 Source = OData.Feed(<URL that points to OData data source>)   
 
 ### OData.Feed:
